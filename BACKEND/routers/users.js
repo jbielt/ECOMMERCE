@@ -128,7 +128,7 @@ router.post('/register', async(req,res) => {
     res.send(user);
 })
 
-// conta els usuaris
+// COUNT TOTAL USERS
 router.get(`/get/count`, async (req, res) =>{
     const userCount = await User.countDocuments((count)=>count);
     if(!userCount){
