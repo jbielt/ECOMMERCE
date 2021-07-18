@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="upload images in process">
+    <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="path public/uploads made static">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BACKEND/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BACKEND/helpers/jwt.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/helpers/jwt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BACKEND/routers/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/routers/products.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +40,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626463233977</updated>
-      <workItem from="1626463235109" duration="40854000" />
+      <workItem from="1626463235109" duration="41202000" />
+      <workItem from="1626628737674" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring">
       <created>1626543641180</created>
@@ -94,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626614575113</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="path public/uploads made static">
+      <created>1626628459388</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1626628459388</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +116,8 @@
     <MESSAGE value="added get Total Sales method, and orders count" />
     <MESSAGE value="get userOrders added" />
     <MESSAGE value="upload images in process" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload images in process" />
+    <MESSAGE value="path public/uploads made static" />
+    <option name="LAST_COMMIT_MESSAGE" value="path public/uploads made static" />
   </component>
   <component name="WindowStateProjectService">
     <state x="457" y="185" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1626498718779">
@@ -126,10 +132,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="505" y="81" key="Github.UntrackedFilesDialog/0.0.1366.768/1366.-249.1920.1080@0.0.1366.768" timestamp="1626543282643" />
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1626614578188">
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1626628462689">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.-249.1920.1080@0.0.1366.768" timestamp="1626614578188" />
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.-249.1920.1080@0.0.1366.768" timestamp="1626628462689" />
     <state x="500" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1626612608783">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

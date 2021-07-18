@@ -20,8 +20,6 @@ app.use('/public/uploads', express.static(__dirname + '/public/uploads')); //fem
 app.use(errorHandler);
 
 
-
-
 //Routes
 const productsRoutes = require('./routers/products');
 const categoriesRoutes = require('./routers/categories');
