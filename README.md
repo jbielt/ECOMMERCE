@@ -1,2 +1,2 @@
 # ECOMMERCE
-Ecommerce with Angular, Nodejs, Express, mongodb
+Ecommerce backend with Nodejs, Express, mongodb, and other libs.
