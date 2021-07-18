@@ -59,13 +59,17 @@ router.get(`/:id`, async (req, res) =>{
     res.send(product);
 })
 
-// petició POST per afegir un producte
+// petició POST per afegir un producte (afegeix imatge) (UPLOAD 1 IMAGE OPTIONAL)
 router.post(`/`, uploadOptions.single('image'), async (req, res) =>{
     const category = await Category.findById(req.body.category);
     if(!category){
         return res.status(400).send('Invalid Category!');
     }
-
+    //validem si no pujen un arxiu
+    const file = req.file;
+    if(!file){
+        return res.status(400).send('No image in the request!');
+    }
     //Montem la ruta de pujada d'imatges
     const fileName = req.file.filename;
     const basePath = `${req.protocol}://${req.get('host')}/public/upload/`;
@@ -91,8 +95,35 @@ router.post(`/`, uploadOptions.single('image'), async (req, res) =>{
     res.send(product);
 })
 
+// UPLOAD A GALLERY IMAGE
+router.put('/gallery-images/:id', uploadOptions.array('images', 10), async(req, res)=>{
+    if(!mongoose.isValidObjectId(req.params.id)){
+        res.status(400).send('Invalid Product Id');
+    }
+    const files = req.files;
+    let imagesPaths = [];
+    const basePath = `${req.protocol}://${req.get('host')}/public/upload/`;
+
+    if(files){
+        files.map(file => {
+            imagesPaths.push(`${basePath}${file.filename}`);
+        })
+    }
+    const product = await Product.findByIdAndUpdate(
+        req.params.id,
+        {
+            images: imagesPaths
+        },
+        { new: true }
+    )
+    if(!product){
+        return res.status(400).send('The product cannot be edited!');
+    }
+    res.send(product);
+})
+
 //UPDATE product
-router.put('/:id', async(req, res)=>{
+router.put('/:id', uploadOptions.single('image'), async(req, res)=>{
     //validar el ID
     if(!mongoose.isValidObjectId(req.params.id)){
         res.status(400).send('Invalid Product Id');
@@ -102,7 +133,20 @@ router.put('/:id', async(req, res)=>{
     if(!category){
         return res.status(400).send('Invalid Category!');
     }
-    const product = await Product.findByIdAndUpdate(
+    const product = await Product.findById(req.params.id);
+    if(!product){
+        return res.status(400).send('Invalid Product!');
+    }
+    const file = req.file;
+    let imagePath;
+    if(file){
+        const fileName = file.filename;
+        const basePath = `${req.protocol}://${req.get('host')}/public/upload/`;
+        imagePath = `${basePath}${fileName}`;
+    }else{
+        imagePath = product.image;
+    }
+    const updatedProduct = await Product.findByIdAndUpdate(
         req.params.id,
         {
             name: req.body.name,
@@ -120,10 +164,10 @@ router.put('/:id', async(req, res)=>{
         //retorna el nou producte actualitzat al request
         { new: true }
     )
-    if(!product){
+    if(!updatedProduct){
         return res.status(400).send('The product cannot be edited!');
     }
-    res.send(product);
+    res.send(updatedProduct);
 })
 
 // DELETE category
@@ -174,5 +218,7 @@ router.get(`/get/featured/:count`, async (req, res) =>{
         count: featuredProducts
     });
 })
+
+
 
 module.exports = router;
