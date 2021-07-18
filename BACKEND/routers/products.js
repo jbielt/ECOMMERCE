@@ -108,7 +108,7 @@ router.delete('/:id',(req,res)=>{
     })
 })
 
-//Count documents on collection db (registres d'una taula)
+//Count documents on collection db (registres d'una taula) COUNT PRODUCTS
 router.get(`/get/count`, async (req, res) =>{
     const productCount = await Product.countDocuments((count)=>count);
     if(!productCount){
