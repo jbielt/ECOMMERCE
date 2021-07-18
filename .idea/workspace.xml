@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="added get Total Sales method, and orders count">
+    <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="get userOrders added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BACKEND/routers/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/routers/orders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/routers/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/routers/products.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626463233977</updated>
-      <workItem from="1626463235109" duration="33812000" />
+      <workItem from="1626463235109" duration="37527000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring">
       <created>1626543641180</created>
@@ -78,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626604711054</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="get userOrders added">
+      <created>1626605845310</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1626605845310</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,7 +102,8 @@
     <MESSAGE value="added update status order, and delete order + order-items" />
     <MESSAGE value="totalPrice calculated added before to create order" />
     <MESSAGE value="added get Total Sales method, and orders count" />
-    <option name="LAST_COMMIT_MESSAGE" value="added get Total Sales method, and orders count" />
+    <MESSAGE value="get userOrders added" />
+    <option name="LAST_COMMIT_MESSAGE" value="get userOrders added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="457" y="185" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1626498718779">
@@ -108,10 +118,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="505" y="81" key="Github.UntrackedFilesDialog/0.0.1366.768/1366.-249.1920.1080@0.0.1366.768" timestamp="1626543282643" />
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1626604714640">
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1626605848491">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.-249.1920.1080@0.0.1366.768" timestamp="1626604714640" />
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.-249.1920.1080@0.0.1366.768" timestamp="1626605848491" />
+    <state x="500" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1626612608783">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="500" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768/1366.-249.1920.1080@0.0.1366.768" timestamp="1626612608783" />
     <state x="339" y="172" width="672" height="677" key="run.anything.popup" timestamp="1626603356364">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
