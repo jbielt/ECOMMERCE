@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="path public/uploads made static">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/helpers/jwt.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/helpers/jwt.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +60,9 @@
       <option name="presentableId" value="Default" />
       <updated>1626463233977</updated>
       <workItem from="1626463235109" duration="41202000" />
-      <workItem from="1626628737674" duration="10000" />
+      <workItem from="1626628737674" duration="37000" />
+      <workItem from="1626628814826" duration="27000" />
+      <workItem from="1626950731864" duration="115000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring">
       <created>1626543641180</created>
@@ -99,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626628459388</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="path public/uploads made static">
+      <created>1626628760832</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1626628760832</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +135,18 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactoring" />
@@ -124,6 +164,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="457" y="185" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768/1366.-249.1920.1080@0.0.1366.768" timestamp="1626498718779" />
+    <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1626628839275">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768/1366.-249.1920.1080@0.0.1366.768" timestamp="1626628839275" />
     <state x="565" y="281" key="Github.ShareDialog" timestamp="1626543257535">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -132,10 +176,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="505" y="81" key="Github.UntrackedFilesDialog/0.0.1366.768/1366.-249.1920.1080@0.0.1366.768" timestamp="1626543282643" />
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1626628462689">
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1626628764696">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.-249.1920.1080@0.0.1366.768" timestamp="1626628462689" />
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.-249.1920.1080@0.0.1366.768" timestamp="1626628764696" />
     <state x="500" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1626612608783">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
