@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="path public/uploads made static">
+    <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="disabled autentification by a moment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BACKEND/helpers/jwt.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/helpers/jwt.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +45,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ECOMMERCE-FRONTEND" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -62,7 +62,13 @@
       <workItem from="1626463235109" duration="41202000" />
       <workItem from="1626628737674" duration="37000" />
       <workItem from="1626628814826" duration="27000" />
-      <workItem from="1626950731864" duration="115000" />
+      <workItem from="1626950731864" duration="1407000" />
+      <workItem from="1627482698637" duration="743000" />
+      <workItem from="1627562571530" duration="877000" />
+      <workItem from="1627570778634" duration="955000" />
+      <workItem from="1627638889678" duration="662000" />
+      <workItem from="1627649275986" duration="91000" />
+      <workItem from="1627649825120" duration="843000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring">
       <created>1626543641180</created>
@@ -127,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626628760832</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="disabled autentification by a moment">
+      <created>1626950899716</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1626950899716</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,17 +170,18 @@
     <MESSAGE value="get userOrders added" />
     <MESSAGE value="upload images in process" />
     <MESSAGE value="path public/uploads made static" />
-    <option name="LAST_COMMIT_MESSAGE" value="path public/uploads made static" />
+    <MESSAGE value="disabled autentification by a moment" />
+    <option name="LAST_COMMIT_MESSAGE" value="disabled autentification by a moment" />
   </component>
   <component name="WindowStateProjectService">
     <state x="457" y="185" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1626498718779">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="457" y="185" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768/1366.-249.1920.1080@0.0.1366.768" timestamp="1626498718779" />
-    <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1626628839275">
+    <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1627638934873">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768/1366.-249.1920.1080@0.0.1366.768" timestamp="1626628839275" />
+    <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768/1366.-249.1920.1080@0.0.1366.768" timestamp="1627638934873" />
     <state x="565" y="281" key="Github.ShareDialog" timestamp="1626543257535">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
