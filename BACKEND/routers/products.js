@@ -24,7 +24,9 @@ const storage = multer.diskStorage({
     },
     filename: function (req, file, cb) {
         const fileName = file.originalname.split(' ').join('-');
+        console.log(fileName)
         const extension = FILE_TYPE_MAP[file.mimetype];
+        console.log(extension)
         cb(null, `${fileName}-${Date.now()}.${extension}`)
     }
 });
@@ -72,7 +74,7 @@ router.post(`/`, uploadOptions.single('image'), async (req, res) =>{
     }
     //Montem la ruta de pujada d'imatges
     const fileName = req.file.filename;
-    const basePath = `${req.protocol}://${req.get('host')}/public/upload/`;
+    const basePath = `${req.protocol}://${req.get('host')}/public/uploads/`;
 
     let product = new Product({
         name: req.body.name,
@@ -102,7 +104,7 @@ router.put('/gallery-images/:id', uploadOptions.array('images', 10), async(req, 
     }
     const files = req.files;
     let imagesPaths = [];
-    const basePath = `${req.protocol}://${req.get('host')}/public/upload/`;
+    const basePath = `${req.protocol}://${req.get('host')}/public/uploads/`;
 
     if(files){
         files.map(file => {
@@ -141,7 +143,7 @@ router.put('/:id', uploadOptions.single('image'), async(req, res)=>{
     let imagePath;
     if(file){
         const fileName = file.filename;
-        const basePath = `${req.protocol}://${req.get('host')}/public/upload/`;
+        const basePath = `${req.protocol}://${req.get('host')}/public/uploads/`;
         imagePath = `${basePath}${fileName}`;
     }else{
         imagePath = product.image;
