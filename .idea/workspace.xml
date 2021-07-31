@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="uploading example images">
+    <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="fixed bug on uploading images 'public/uploads'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BACKEND/routers/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/routers/products.js" afterDir="false" />
     </list>
@@ -74,7 +74,8 @@
       <workItem from="1627570778634" duration="955000" />
       <workItem from="1627638889678" duration="662000" />
       <workItem from="1627649275986" duration="91000" />
-      <workItem from="1627649825120" duration="6222000" />
+      <workItem from="1627649825120" duration="8226000" />
+      <workItem from="1627724777081" duration="2103000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring">
       <created>1626543641180</created>
@@ -153,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627654921015</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fixed bug on uploading images 'public/uploads'">
+      <created>1627718241939</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1627718241939</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +193,7 @@
     <MESSAGE value="path public/uploads made static" />
     <MESSAGE value="disabled autentification by a moment" />
     <MESSAGE value="uploading example images" />
-    <option name="LAST_COMMIT_MESSAGE" value="uploading example images" />
+    <MESSAGE value="fixed bug on uploading images 'public/uploads'" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed bug on uploading images 'public/uploads'" />
   </component>
 </project>
