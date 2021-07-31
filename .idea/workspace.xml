@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="fixed bug on uploading images 'public/uploads'">
+    <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="fixed bug imagePath on put request (update product)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BACKEND/routers/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/routers/products.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,7 @@
       <workItem from="1627638889678" duration="662000" />
       <workItem from="1627649275986" duration="91000" />
       <workItem from="1627649825120" duration="8226000" />
-      <workItem from="1627724777081" duration="2103000" />
+      <workItem from="1627724777081" duration="2644000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring">
       <created>1626543641180</created>
@@ -161,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627718241939</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fixed bug imagePath on put request (update product)">
+      <created>1627743297964</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1627743297964</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +200,7 @@
     <MESSAGE value="disabled autentification by a moment" />
     <MESSAGE value="uploading example images" />
     <MESSAGE value="fixed bug on uploading images 'public/uploads'" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed bug on uploading images 'public/uploads'" />
+    <MESSAGE value="fixed bug imagePath on put request (update product)" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed bug imagePath on put request (update product)" />
   </component>
 </project>
