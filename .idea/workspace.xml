@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="refactor">
+    <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="enabling authentication token again">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BACKEND/helpers/jwt.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/helpers/jwt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/routers/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/routers/products.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +83,7 @@
       <workItem from="1628225370513" duration="650000" />
       <workItem from="1628655880243" duration="2102000" />
       <workItem from="1628693574082" duration="4273000" />
-      <workItem from="1628911911224" duration="1414000" />
+      <workItem from="1628911911224" duration="4414000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring">
       <created>1626543641180</created>
@@ -183,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627743798978</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="enabling authentication token again">
+      <created>1628914931467</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1628914931467</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +225,7 @@
     <MESSAGE value="fixed bug on uploading images 'public/uploads'" />
     <MESSAGE value="fixed bug imagePath on put request (update product)" />
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="enabling authentication token again" />
+    <option name="LAST_COMMIT_MESSAGE" value="enabling authentication token again" />
   </component>
 </project>

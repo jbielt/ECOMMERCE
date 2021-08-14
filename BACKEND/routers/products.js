@@ -194,7 +194,7 @@ router.get(`/get/count`, async (req, res) =>{
         res.status(500).json({success: false});
     }
     res.send({
-        count: productCount
+        productCount: productCount
     });
 })
 
