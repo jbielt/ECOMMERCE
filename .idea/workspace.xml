@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="fixed bug imagePath on put request (update product)">
+    <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/helpers/jwt.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/helpers/jwt.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/BACKEND/public/uploads" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ECOMMERCE-FRONTEND" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -74,7 +75,15 @@
       <workItem from="1627638889678" duration="662000" />
       <workItem from="1627649275986" duration="91000" />
       <workItem from="1627649825120" duration="8226000" />
-      <workItem from="1627724777081" duration="2644000" />
+      <workItem from="1627724777081" duration="4785000" />
+      <workItem from="1628012485695" duration="632000" />
+      <workItem from="1628052863511" duration="622000" />
+      <workItem from="1628139086963" duration="220000" />
+      <workItem from="1628139328527" duration="631000" />
+      <workItem from="1628225370513" duration="650000" />
+      <workItem from="1628655880243" duration="2102000" />
+      <workItem from="1628693574082" duration="4273000" />
+      <workItem from="1628911911224" duration="1414000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring">
       <created>1626543641180</created>
@@ -167,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627743297964</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="refactor">
+      <created>1627743798978</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1627743798978</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +217,7 @@
     <MESSAGE value="uploading example images" />
     <MESSAGE value="fixed bug on uploading images 'public/uploads'" />
     <MESSAGE value="fixed bug imagePath on put request (update product)" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed bug imagePath on put request (update product)" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
 </project>
