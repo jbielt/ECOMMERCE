@@ -204,9 +204,7 @@ router.get(`/get/featured`, async (req, res) =>{
     if(!featuredProducts){
         res.status(500).json({success: false});
     }
-    res.send({
-        count: featuredProducts
-    });
+    res.send(featuredProducts);
 })
 //GET only featured Products LIMIT TO 5.
 router.get(`/get/featured/:count`, async (req, res) =>{
@@ -216,9 +214,7 @@ router.get(`/get/featured/:count`, async (req, res) =>{
     if(!featuredProducts){
         res.status(500).json({success: false});
     }
-    res.send({
-        count: featuredProducts
-    });
+    res.send(featuredProducts);
 })
 
 
