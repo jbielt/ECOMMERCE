@@ -19,9 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="changing object value countProduct">
+    <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="fixing response send of products featured">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BACKEND/routers/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/routers/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/models/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/models/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/models/order-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/models/order-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/models/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/models/order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/models/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/models/product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/routers/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/routers/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TODOLIST-ANGULAR-PROJECT/TODO-ANGULAR" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -83,7 +88,9 @@
       <workItem from="1628225370513" duration="650000" />
       <workItem from="1628655880243" duration="2102000" />
       <workItem from="1628693574082" duration="4273000" />
-      <workItem from="1628911911224" duration="11440000" />
+      <workItem from="1628911911224" duration="15011000" />
+      <workItem from="1629260923816" duration="11439000" />
+      <workItem from="1629692539013" duration="7271000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring">
       <created>1626543641180</created>
@@ -197,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628919127608</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fixing response send of products featured">
+      <created>1629177104977</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1629177104977</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +248,7 @@
     <MESSAGE value="refactor" />
     <MESSAGE value="enabling authentication token again" />
     <MESSAGE value="changing object value countProduct" />
-    <option name="LAST_COMMIT_MESSAGE" value="changing object value countProduct" />
+    <MESSAGE value="fixing response send of products featured" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing response send of products featured" />
   </component>
 </project>
