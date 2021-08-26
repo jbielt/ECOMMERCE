@@ -19,13 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="fixing response send of products featured">
+    <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="createUser fails, has to fix. In process.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BACKEND/models/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/models/category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BACKEND/models/order-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/models/order-item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BACKEND/models/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/models/order.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BACKEND/models/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/models/product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BACKEND/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BACKEND/routers/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/routers/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +87,7 @@
       <workItem from="1628693574082" duration="4273000" />
       <workItem from="1628911911224" duration="15011000" />
       <workItem from="1629260923816" duration="11439000" />
-      <workItem from="1629692539013" duration="7271000" />
+      <workItem from="1629692539013" duration="9274000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring">
       <created>1626543641180</created>
@@ -211,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629177104977</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="createUser fails, has to fix. In process.">
+      <created>1629905231080</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1629905231080</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +253,7 @@
     <MESSAGE value="enabling authentication token again" />
     <MESSAGE value="changing object value countProduct" />
     <MESSAGE value="fixing response send of products featured" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing response send of products featured" />
+    <MESSAGE value="createUser fails, has to fix. In process." />
+    <option name="LAST_COMMIT_MESSAGE" value="createUser fails, has to fix. In process." />
   </component>
 </project>
