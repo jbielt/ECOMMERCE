@@ -6,7 +6,10 @@ const {OrderItem}= require('../models/order-item');
 
 // GET ALL ORDERS + user name + ordered by date new to old
 router.get(`/`, async (req, res) =>{
-    const orderList = await Order.find().populate('user', 'name').sort({'dateOrdered': -1});
+    const orderList = await Order.find()
+        .populate('user', 'name')
+        .sort({'dateOrdered': -1});
+
     if(!orderList){
         res.status(500).json({success: false});
     }
@@ -29,19 +32,24 @@ router.get(`/:id`, async (req, res) =>{
 
 //CREATE order (we need to create the orderItems before to assign it inside the order)
 router.post('/', async(req,res)=>{
-    const orderItemsIds = Promise.all(req.body.orderItems.map(async orderItem => {
+    const orderItemsIds = Promise.all(
+        req.body.orderItems.map(async (orderItem) => {
         let newOrderItem = new OrderItem({
             quantity: orderItem.quantity,
             product: orderItem.product
-        })
+        });
         newOrderItem = await newOrderItem.save();
         return newOrderItem._id;
-    }))
+        })
+    );
     const orderItemsIdsResolved = await orderItemsIds;
 
     //Calculate price, we get first the price of the product.
-    const totalPrices = Promise.all(orderItemsIdsResolved.map(async(orderItemId)=>{
-        const orderItem = await OrderItem.findById(orderItemId).populate('product', 'price');
+    const totalPrices = Promise.all(
+        orderItemsIdsResolved.map(async(orderItemId) => {
+        const orderItem = await OrderItem.findById(orderItemId)
+            .populate('product', 'price');
+
         const totalPrice = orderItem.product.price * orderItem.quantity;
         return totalPrice;
     }));
