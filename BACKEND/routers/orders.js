@@ -31,7 +31,7 @@ router.get(`/:id`, async (req, res) =>{
 })
 
 //CREATE order (we need to create the orderItems before to assign it inside the order)
-router.post('/', async(req,res)=>{
+router.post('/', async(req,res) => {
     const orderItemsIds = Promise.all(
         req.body.orderItems.map(async (orderItem) => {
         let newOrderItem = new OrderItem({
@@ -70,9 +70,9 @@ router.post('/', async(req,res)=>{
     })
     order = await order.save();
     if(!order){
-        return res.status(404).send('The order cannot be created!');
+        return res.status(400).send("the order cannot be created!");
     }
-    res.send(order);
+    res.status(200).send(order);
 })
 
 
