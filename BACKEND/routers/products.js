@@ -33,15 +33,13 @@ const storage = multer.diskStorage({
 
 const uploadOptions = multer({ storage: storage });
 
-
-
 // es pot fer servir await + async, o .then, .catch
 // petició GET per obtenir tots els productes (primer esperara a ser omplerta, i despres respondra amb la llista)
 router.get(`/`, async (req, res) =>{
     // localhost:3000/api/v1/products?categories=2161651,189165
     let filter = {};
     if(req.query.categories){
-        filter = {category: req.query.categories.split(",")}
+        filter = { category: req.query.categories.split(",") }
     }
     //find() retorna tots, .select(columnes que voles retornar). (treure id) (exemple)
     const productList = await Product.find(filter).populate('category');
