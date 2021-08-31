@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="refactoring to find the orderItem error (not found yet)">
+    <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="refactoring orders, error not found yet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BACKEND/routers/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/routers/orders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BACKEND/routers/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/routers/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ECOMMERCE-FRONTEND" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -87,7 +86,7 @@
       <workItem from="1628911911224" duration="15011000" />
       <workItem from="1629260923816" duration="11439000" />
       <workItem from="1629692539013" duration="14440000" />
-      <workItem from="1630237026750" duration="4795000" />
+      <workItem from="1630237026750" duration="8619000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring">
       <created>1626543641180</created>
@@ -236,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630238521954</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="refactoring orders, error not found yet">
+      <created>1630243357516</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1630243357516</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +284,7 @@
     <MESSAGE value="userHash seems to be fixed. (have a look in future)" />
     <MESSAGE value="refactoring orders" />
     <MESSAGE value="refactoring to find the orderItem error (not found yet)" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring to find the orderItem error (not found yet)" />
+    <MESSAGE value="refactoring orders, error not found yet" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring orders, error not found yet" />
   </component>
 </project>
