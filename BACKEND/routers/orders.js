@@ -48,14 +48,15 @@ router.post('/', async(req,res) => {
     const orderItemsIdsResolved = await orderItemsIds;
 
     //Calculate price, we get first the price of the product.
-    const totalPrices = Promise.all(
+    const totalPrices = await Promise.all(
         orderItemsIdsResolved.map(async(orderItemId) => {
         const orderItem = await OrderItem.findById(orderItemId)
             .populate('product', 'price');
 
         const totalPrice = orderItem.product.price * orderItem.quantity;
         return totalPrice;
-    }));
+        })
+    );
 
     const totalPrice = totalPrices.reduce((a,b) => a + b, 0);
 
