@@ -2,6 +2,9 @@ const {Order} = require('../models/order');
 const express = require('express');
 const router = express.Router();
 const {OrderItem}= require('../models/order-item');
+const {Promise} = require("mongoose");
+const {Product} = require("../models/product");
+const stripe = require('stripe')('sk_test_51JcNIUEsKvwIzSQFamOHEK2oRJnzADbOWkfUAaCxBj1OhdXQ8YXec3sdwTumKGSSkxzaCDBvUytjgzMsdXC7uEbr00KP2yePfK');
 
 
 // GET ALL ORDERS + user name + ordered by date new to old
@@ -77,6 +80,37 @@ router.post('/', async(req,res) => {
         return res.status(400).send("the order cannot be created!");
     }
     res.status(200).send(order);
+});
+
+//Payment checkout
+router.post('/create-checkout-session', async(req, res) => {
+    const orderItems = req.body;
+    if(!orderItems) {
+        return res.status(400).send('checkout session cannot be created - check the order items');
+    }
+    const lineItems = await Promise.all(
+        orderItems.map(async (orderItem) => {
+            const product = await Product.findById(orderItems.product);
+            return {
+                price_data: {
+                    currency: 'usd',
+                    product_data: {
+                        name: product.name,
+                    },
+                    unit_amount: product.price * 100,
+                },
+                quantity: orderItem.quantity,
+            };
+        })
+    )
+    const session = await stripe.checkout.sessions.create({
+        payment_method_types: ['card'],
+        line_items: lineItems,
+        mode: 'payment',
+        success_url: 'http://localhost:4200/success',
+        cancel_url: 'http://localhost:4200/error'
+    })
+    res.json({id: session.id});
 })
 
 
