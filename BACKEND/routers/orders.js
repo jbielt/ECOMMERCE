@@ -82,7 +82,7 @@ router.post('/', async(req,res) => {
     res.status(200).send(order);
 });
 
-//Payment checkout
+//Payment checkout (see documentation)
 router.post('/create-checkout-session', async(req, res) => {
     const orderItems = req.body;
     if(!orderItems) {
