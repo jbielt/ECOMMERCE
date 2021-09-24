@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="orderItem fixed">
+    <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="Created Checkout Session API (Stripe)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BACKEND/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BACKEND/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BACKEND/routers/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/routers/orders.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +90,7 @@
       <workItem from="1630396429551" duration="5178000" />
       <workItem from="1630599631330" duration="7272000" />
       <workItem from="1631075171730" duration="1852000" />
-      <workItem from="1632285472394" duration="1670000" />
+      <workItem from="1632285472394" duration="2351000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring">
       <created>1626543641180</created>
@@ -262,7 +260,21 @@
       <option name="project" value="LOCAL" />
       <updated>1630396822173</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Created Checkout Session API (Stripe)">
+      <created>1632372606442</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1632372606442</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Created Checkout Session API (Stripe)">
+      <created>1632372699049</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1632372699049</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +319,7 @@
     <MESSAGE value="refactoring orders, error not found yet" />
     <MESSAGE value="refactoring app.js" />
     <MESSAGE value="orderItem fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="orderItem fixed" />
+    <MESSAGE value="Created Checkout Session API (Stripe)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Checkout Session API (Stripe)" />
   </component>
 </project>
