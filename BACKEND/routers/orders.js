@@ -90,14 +90,14 @@ router.post('/create-checkout-session', async(req, res) => {
     }
     const lineItems = await Promise.all(
         orderItems.map(async (orderItem) => {
-            const product = await Product.findById(orderItems.product);
+            const product = await Product.findById(orderItem.product);
             return {
                 price_data: {
                     currency: 'usd',
                     product_data: {
                         name: product?.name,
                     },
-                    unit_amount: Math.round(product.price * 100),
+                    unit_amount: product.price * 100,
                 },
                 quantity: orderItem.quantity,
             };
