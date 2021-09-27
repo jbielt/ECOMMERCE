@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="unit_amount ok. Fixing bug on creating stripe account.">
+    <list default="true" id="659d0a1b-4cc0-4240-bb1a-8f838dc2b42a" name="Default Changelist" comment="refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +89,7 @@
       <workItem from="1630396429551" duration="5178000" />
       <workItem from="1630599631330" duration="7272000" />
       <workItem from="1631075171730" duration="1852000" />
-      <workItem from="1632285472394" duration="5853000" />
+      <workItem from="1632285472394" duration="5914000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring">
       <created>1626543641180</created>
@@ -287,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632636964546</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="refactoring">
+      <created>1632668940112</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1632668940112</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +316,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="order and order-item model created" />
     <MESSAGE value="added update status order, and delete order + order-items" />
     <MESSAGE value="totalPrice calculated added before to create order" />
     <MESSAGE value="added get Total Sales method, and orders count" />
@@ -334,6 +340,7 @@
     <MESSAGE value="Created Checkout Session API (Stripe)" />
     <MESSAGE value="has to fix null values from order checkout session" />
     <MESSAGE value="unit_amount ok. Fixing bug on creating stripe account." />
-    <option name="LAST_COMMIT_MESSAGE" value="unit_amount ok. Fixing bug on creating stripe account." />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
 </project>
